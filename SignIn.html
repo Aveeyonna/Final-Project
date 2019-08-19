@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Friendly.css">
+  <link rel="stylesheet" href="SignUp.css">
+  <script src="Friendly.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <h3>
+          <center><a href="Friendly.html"><img
+                src="http://www.pngall.com/wp-content/uploads/2016/09/Recycle-PNG-Image.png" id="logo"></a></center>
+        </h3>
+      </div>
+
+      <div class="col-sm-2">
+        <h4>
+          <center><a href="AboutUs.html" class="btn btn-default">About Us</a></center>
+        </h4>
+      </div>
+
+      <div class="col-sm-2">
+        <h4>
+          <center><a href="TrackCycle.html" class="btn btn-default">Track Cycle</a></center>
+        </h4>
+      </div>
+
+      <div class="col-sm-2">
+        <h4>
+          <center><a href="ContactUS.html" class="btn btn-default">Contact Us</a></center>
+        </h4>
+      </div>
+
+      <div class="col-sm-2">
+        <h4>
+          <center><a href="Help.html" class="btn btn-default">Help</a></center>
+        </h4>
+      </div>
+
+      <div class="col-sm-2">
+        <h4>
+          <center><a href="SignIn.html" class="btn btn-default" id="SignUp">Sign Up</a></center>
+        </h4>
+      </div>
+
+    </div>
+  </div>
+  <div class="wrapper">
+
+    <div class="signUp">
+
+      <form action="index.html" method="post">
+        <div>
+          <input required type="text" name="user_name" id="name" placeholder="Username">
+
+        </div>
+        <div>
+          <input required type="email" name="user_email" id="email" placeholder="Email">
+
+        </div>
+        <div>
+          <input required type="password" name="user_password" id="password" placeholder="Password">
+
+        </div>
+        <div>
+          <input required type="tel" name="user_phone" id="phone" placeholder="Phone">
+
+        </div>
+
+        <button type="submit" class="btn btn-sign-up">Sign Up</button>
+
+
+        <button type="button" class="btn btn-member">Already a member?</button>
+      </form>
+
+    </div>
+
+    <div class="signIn">
+      <form action="index.html" method="post">
+
+        <div>
+          <input required type="text" name="user_name" id="name" placeholder="Username">
+
+        </div>
+
+        <div>
+          <input required type="password" name="user_password" id="password" placeholder="Password">
+
+        </div>
+
+        <button type="submit" class="btn btn-log-in">Log In</button>
+
+        <button type="button" class="btn btn-back">Go back</button>
+      </form>
+    </div>
+
+  </div>
+</body>
+
+</html>
