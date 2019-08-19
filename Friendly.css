@@ -1,24 +1,21 @@
 h1 {
     font-family: 'Allerta Stencil', sans-serif;
-    font-size : 200px;
+    font-size: 200px;
     position: absolute;
     left: 150px;
     top: 200px;
 }
-    .logo{
-        
-        color: white;
-    }
-    .logo > span{
-        color: #caecef;
-    }
-    
 
-   
+.logo {
+    color: white;
+}
 
-#friendly{
-    background: linear-gradient(90deg, #caecef 50%, #fff 50%); 
+.logo>span {
+    color: #caecef;
+}
 
+#friendly {
+    background: linear-gradient(90deg, #caecef 50%, #fff 50%);
 }
 
 #have-a-question {
@@ -27,142 +24,139 @@ h1 {
 
 h2 {
     position: absolute;
-    left: 500px;
-    top: 460px;
+    left: 510px;
+    top: 430px;
     font-family: 'Oleo Script', cursive;
     color: rgb(162, 223, 231)
 }
 
-img{
-    position:relative;
-   display: block;
-   margin-left : auto;
-   margin-right : auto;
-   margin-top: 3%;
-   width:40%;
-  filter: opacity(30%);
-  z-index: -1;
-  }
+img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 40%;
+    filter: opacity(30%);
+    z-index: -1;
+}
 
 #logo {
     width: 30px;
     height: 30px;
     filter: brightness(500%);
 }
-h3{
-    font-family:'Courgette', cursive;
-font-size: 500%;
+
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 500%;
 }
-p{
+
+p {
     font-family: 'Chivo', sans-serif;
     font-size: 150%;
     margin: 35px;
-
 }
 
-h{
+h {
     position: absolute;
     left: 500px;
     top: -25px;
 }
 
-.img1{
-    position:relative;
+.img1 {
+    position: relative;
     display: block;
-    margin-left : auto;
-    margin-right : auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 3%;
-    width:30%;
+    width: 30%;
     margin-bottom: 20px;
-
-
 }
- #logo {
+
+#logo {
     width: 30px;
     height: 30px;
     filter: brightness(500%);
-} 
+}
 
 #about-me {
     background-color: lightblue;
 }
-h3{
-    font-family:'Zilla Slab', serif;
-font-size: 500%;
 
+h3 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 500%;
 }
-p{
-    font-family: 'Chivo', sans-serif;
+
+p {
+    font-family: "Fira Sans", "Helvetica Neue", Hevetica, Arial, sans-serif;
     font-size: 150%;
     margin: 35px;
-
 }
 
-h5{
+h5 {
     position: absolute;
     left: 500px;
     top: -25px;
 }
 
-.img1{
-    position:relative;
+.img1 {
+    position: relative;
     display: block;
-    margin-left : auto;
-    margin-right : auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 3%;
-    width:30%;
+    width: 30%;
     margin-bottom: 20px;
-
-
 }
- #logo {
+
+#logo {
     width: 30px;
     height: 30px;
     filter: brightness(500%);
-} 
+}
 
 #about-me {
     background-color: lightblue;
 }
 
-#have-a-question{
-    font-size:50px;
+#have-a-question {
+    font-size: 50px;
     font-family: 'Courgette', cursive;
 }
 
-h4{
+h4 {
     font-family: 'Chivo', sans-serif;
     font-size: 150%;
-
 }
 
-
-#cat{
-    position:relative;
-    top:-890px;
-    left:400px ;
-    filter: opacity(95%)
-}
-
-body{
-    background-color: #caecef;
-}
-
-#add{
-    font-family: 'Chivo', sans-serif;
-    position:relative;
-
-    left:45px
-  
-}
-
-.img1{
-    position:relative;
-    top:60px;
+#cat {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
     filter: opacity(95%);
 }
 
-#pic1{
+body {
+    background-color: #caecef;
+    margin: 20px;
+}
+
+#add {
+    font-family: 'Chivo', sans-serif;
+    position: relative;
+    left: 45px
+}
+
+.img1 {
+    position: relative;
+    top: 60px;
+    filter: opacity(95%);
+}
+
+#pic1 {
     filter: opacity(95%);
     width: 65%;
     margin-bottom: 10%;
@@ -171,16 +165,16 @@ body{
     margin-top: 10%;
 }
 
-#pic2{
+#pic2 {
     filter: opacity(95%);
-    width:85%;
+    width: 85%;
     margin-bottom: 10%;
     margin-right: 70%;
     margin-left: 6%;
     margin-top: 10%;
 }
 
-#pic3{
+#pic3 {
     filter: opacity(95%);
     width: 68%;
     margin-bottom: 10%;
@@ -189,22 +183,35 @@ body{
     margin-top: 10%;
 }
 
-#our{
+#our {
     font-family: 'Courgette', cursive;
-
 }
 
-#heart{
-    position:relative;
+#heart {
+    position: relative;
     filter: opacity(95%);
     width: 200px;
-
 }
 
-#foot{
-    width:250px;
-    position:relative;
-    right:300px;
-    top:-100px;
+#foot {
+    width: 250px;
+    position: relative;
+    right: 300px;
+    top: -100px;
     filter: opacity(95%);
+}
+
+/* Base */
+
+.btn {
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-color: #000
+}
+
+/*search box*/
+.d{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+    color: black
+    
 }
